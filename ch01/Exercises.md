@@ -1,4 +1,4 @@
-# Chapter Exercises.
+# Chapter Exercises
 
 ## Combinators Exercise
 
