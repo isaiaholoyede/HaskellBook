@@ -28,3 +28,11 @@ This repo documents my solution to Haskell Book Exercises.
 6. [Chapter 3 Exercises: Third Letter](ch03/ThirdLetter.hs)
 7. [Chapter 3 Exercises: Letter Index](ch03/LetterIndex.hs)
 8. [Chapter 3 Exercises: Reverse](ch03/Reverse.hs)
+
+## Chapter 4: Basic datatypes
+
+1. [Exercises: Mood Swing](ch04/MoodSwing.hs)
+2. [Exercises: Syntax Errors](ch04/FindTheMistakes.hs)
+3. [Chapter 4 Exercises](ch04/ch04Exercises.md)
+4. [Chapter 4 Exercises: #8: isPalindrome](ch04/isPalindrome.hs)
+5. [Chapter 4 Exercises: #9: myAbs](ch04/myAbs.hs)
