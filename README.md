@@ -36,3 +36,19 @@ This repo documents my solution to Haskell Book Exercises.
 3. [Chapter 4 Exercises](ch04/ch04Exercises.md)
 4. [Chapter 4 Exercises: #8: isPalindrome](ch04/isPalindrome.hs)
 5. [Chapter 4 Exercises: #9: myAbs](ch04/myAbs.hs)
+
+## Chapter 5: Types
+
+1. [Exercises: Type Matching](ch05/TypeMatching.md)
+2. [Exercises: Type Arguments](ch05/TypeArguments.md)
+3. [Exercises: Parametricity](ch05/Parametricity.md)
+4. [Exercises: Apply Yourself](ch05/ApplyYourself.md)
+5. [Chapter 5 Exercises](ch05/ch05Exercises.md)
+6. [Chapter 5 Exercises: Determine the type](ch05/determineTheType.hs)
+7. [Chapter 5 Exercises: Does it compile](ch05/doesItCompile.hs)
+8. [Chapter 5 Exercises: Type Signature](ch05/TypeSignature.hs)
+9. [Chapter 5 Exercises: Write The Function](ch05/WriteTheFunction.hs)
+10. [Chapter 5 Exercises: Sing](ch05/sing.hs)
+11. [Chapter 5 Exercises: Sing 2](ch05/sing2.hs)
+12. [Chapter 5 Exercises: Arith3Broken](ch05/arith3broken.hs)
+13. [Chapter 5 Exercises: Type-Kwon-Do](ch05/TypeKwonDo.hs)
