@@ -52,3 +52,13 @@ This repo documents my solution to Haskell Book Exercises.
 11. [Chapter 5 Exercises: Sing 2](ch05/sing2.hs)
 12. [Chapter 5 Exercises: Arith3Broken](ch05/arith3broken.hs)
 13. [Chapter 5 Exercises: Type-Kwon-Do](ch05/TypeKwonDo.hs)
+
+## Chapter 6: Type Classes
+
+1. [Exercises: Eq Instances](ch06/EqInstances.hs)
+2. [Exercises: Tuple Experiment](ch06/TupleExperiment.md)
+3. [Exercises: Will They Work](ch06/WillTheyWork.md)
+4. [Chapter 6 Exercises](ch06/ch06Exercises.md)
+5. [Chapter 6 Exercises: Does It Typecheck](ch06/DoesItTypecheck.hs)
+6. [Chapter 6 Exercises: Match The Types](ch06/MatchTheTypes.hs)
+7. [Chapter 6 Exercises: Type-Kwon-Do Two: Electric Typealoo](ch06/ElectricTypealoo.hs)
