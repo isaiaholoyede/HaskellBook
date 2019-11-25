@@ -62,3 +62,17 @@ This repo documents my solution to Haskell Book Exercises.
 5. [Chapter 6 Exercises: Does It Typecheck](ch06/DoesItTypecheck.hs)
 6. [Chapter 6 Exercises: Match The Types](ch06/MatchTheTypes.hs)
 7. [Chapter 6 Exercises: Type-Kwon-Do Two: Electric Typealoo](ch06/ElectricTypealoo.hs)
+
+## Chapter 7: More Functional Patterns
+
+1. [Exercises: Grab Bag](ch07/GrabBag.hs)
+2. [Exercises: Variety Pack](ch07/VarietyPack.hs)
+3. [Exercises: Case Practice](ch07/CasePractice.hs)
+4. [Exercises: Artful Dodgy](ch07/ArtfulDodgy.hs)
+5. [Exercises: Guard Duty](ch07/GuardDuty.hs)
+6. [Exercises: Arith 2](ch07/Arith2.hs)
+7. [Chapter 7 Exercises](ch07/ch07Exercises.md)
+8. [Chapter 7 Exercises: Let's Write Code](ch07/LetsWriteCode.hs)
+9. [Chapter 7 Exercises: Arith4 Version A](ch07/Arith4A.hs)
+10. [Chapter 7 Exercises: Arith4 Version B](ch07/Arith4B.hs)
+11. [Chapter 7 Exercises: Arith4 Version C](ch07/Arith4C.hs)
