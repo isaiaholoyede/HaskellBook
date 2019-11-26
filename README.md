@@ -76,3 +76,13 @@ This repo documents my solution to Haskell Book Exercises.
 9. [Chapter 7 Exercises: Arith4 Version A](ch07/Arith4A.hs)
 10. [Chapter 7 Exercises: Arith4 Version B](ch07/Arith4B.hs)
 11. [Chapter 7 Exercises: Arith4 Version C](ch07/Arith4C.hs)
+
+## Chapter 8: Recursion
+
+1. [Exercises: Intermission](ch08/ApplyTimes.hs)
+2. [Chapter 8 Exercises](ch08/ch08Exercises.md)
+3. [Chapter 8 Exercises: Reviewing Currying](ch08/ReviewingCurrying.hs)
+4. [Chapter 8 Exercises: Recursion](ch08/Recursion.hs)
+5. [Chapter 8 Exercises: Fixing DividedBy](ch08/DividedBy.hs)
+6. [Chapter 8 Exercises: McCarthy91 Function](ch08/McCarthy91.hs)
+7. [Chapter 8 Exercises: Numbers into Words](ch08/WordNumber.hs)
