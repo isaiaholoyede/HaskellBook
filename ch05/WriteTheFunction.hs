@@ -28,8 +28,8 @@ r (_:xs) = xs
 r [] = []
 
 -- Identity function for a list
-r :: [a] -> [a]
-r x = x
+r' :: [a] -> [a]
+r' x = x
 
 -- #6
 co :: (b -> c) -> (a -> b) -> a -> c

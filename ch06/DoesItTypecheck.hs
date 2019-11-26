@@ -42,7 +42,7 @@ data Sentence = Sentence Subject Verb Object
 s1 :: Object -> Sentence
 s1 = Sentence "dogs" "drool"
 
-s2 :: Object -> Sentence
+s2 :: Sentence
 s2 = Sentence "Julie" "loves" "dogs"
 
 -- This typechecks.

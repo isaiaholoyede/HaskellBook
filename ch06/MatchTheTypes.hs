@@ -1,4 +1,7 @@
+module MatchTheTypes where
 -- Match the types
+
+import Data.List
 
 -- #1
 i :: Num a => a
@@ -11,20 +14,23 @@ i = 1
 f :: Float
 -- f :: Num a => a
 f = 1.0
--- f :: Num a => a will not typecheck because the lieral 1.0 belongs to the Fractional typeclass, 
+-- f :: Num a => a will not typecheck 
+-- because the lieral 1.0 belongs to the Fractional typeclass, 
 -- hence it is more constrained than the Num typeclass.
 
 -- #3
 --f :: Float
-f :: Fractional a => a
-f = 1.0
--- f :: Fractional a => a typechecks because 1.0 belongs to the Fractional typeclass.
+f' :: Fractional a => a
+f' = 1.0
+-- f' :: Fractional a => a typechecks 
+-- because 1.0 belongs to the Fractional typeclass.
 
 -- #4
 -- f :: Float
-f :: RealFrac a => a
-f = 1.0
--- RealFrac also works here. RealFrac is a subclass of Real and Fractional typeclasses.
+f'' :: RealFrac a => a
+f'' = 1.0
+-- RealFrac also works here. 
+-- RealFrac is a subclass of Real and Fractional typeclasses.
 
 -- #5
 freud :: a -> a
@@ -35,11 +41,11 @@ freud' x = x
 -- Both typechecks. freud and freud' are identity functions.
 
 -- #6
-freud :: a -> a
-freud x = x
+-- freud :: a -> a
+-- freud x = x
 
-freud' :: Int -> Int
-freud' x = x
+freud'' :: Int -> Int
+freud'' x = x
 -- Both typechecks. freud' only works for integer datatypes.
 
 -- #7
@@ -55,8 +61,8 @@ sigmund _ = myX
 -- So, a more general polymorphic type variable will no longer apply.
 
 -- #8
-myX :: Int
-myX = 1 :: Int
+-- myX :: Int
+-- myX = 1 :: Int
 
 sigmund' :: Int -> Int
 sigmund' _ = myX
@@ -67,8 +73,6 @@ sigmund' _ = myX
 -- So, a more general polymorphic type variable will no longer apply.
 
 -- #9
-import Data.List
-
 jung :: Ord a => [a] -> a
 jung xs = head (sort xs)
 

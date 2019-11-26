@@ -7,7 +7,7 @@ k :: (a, b) -> a
 k (x, y) = x
 -- The type of k is k (a, b) -> a
 
-k1 :: Num a -> a
+k1 :: Num a => a
 k1 = k ((4 - 1), 10)
 
 -- b)

@@ -32,7 +32,7 @@ This repo documents my solution to Haskell Book Exercises.
 ## Chapter 4: Basic datatypes
 
 1. [Exercises: Mood Swing](ch04/MoodSwing.hs)
-2. [Exercises: Syntax Errors](ch04/FindTheMistakes.hs)
+2. [Exercises: Syntax Errors](ch04/FindTheMistakes.md)
 3. [Chapter 4 Exercises](ch04/ch04Exercises.md)
 4. [Chapter 4 Exercises: #8: isPalindrome](ch04/isPalindrome.hs)
 5. [Chapter 4 Exercises: #9: myAbs](ch04/myAbs.hs)
