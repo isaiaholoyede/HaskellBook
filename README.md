@@ -86,3 +86,20 @@ This repo documents my solution to Haskell Book Exercises.
 5. [Chapter 8 Exercises: Fixing DividedBy](ch08/DividedBy.hs)
 6. [Chapter 8 Exercises: McCarthy91 Function](ch08/McCarthy91.hs)
 7. [Chapter 8 Exercises: Numbers into Words](ch08/WordNumber.hs)
+
+## Chapter 9: Lists
+
+1. [Exercises: safeHead](ch09/safeHead.hs)
+2. [Exercise: EnumFromTo](ch09/EnumFromTo.hs)
+3. [Exercise: Fearful Symmetry](ch09/FearfulSymmetry.hs)
+4. [Exercise: PoemLines](ch09/PoemLines.hs)
+5. [Exercise: Comprehend Thy Lists](ch09/ComprehendThyLists.hs)
+6. [Exercise: Square Cube](ch09/SquareCube.hs)
+7. [Exercise: Bottom Madness](ch09/BottomMadness.md)
+8. [Exercise: More Bottoms](ch09/MoreBottoms.md)
+9. [Exercise: More Bottom - #6](ch09/MapThree.hs)
+10. [Exercise: Filtering](ch09/Filtering.hs)
+11. [Exercise: Zipping](ch09/Zipping.hs)
+12. [Chapter 9 Exercises: Data Char](ch09/DataChar.hs)
+13. [Chapter 9 Exercises: Cipher](ch09/Cipher.hs)
+14. [Chapter 9 Exercises: Standard Functions](ch09/StandardFunctions.hs)
