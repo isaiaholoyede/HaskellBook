@@ -103,3 +103,11 @@ This repo documents my solution to Haskell Book Exercises.
 12. [Chapter 9 Exercises: Data Char](ch09/DataChar.hs)
 13. [Chapter 9 Exercises: Cipher](ch09/Cipher.hs)
 14. [Chapter 9 Exercises: Standard Functions](ch09/StandardFunctions.hs)
+
+## Chapter 10: Folding Lists
+
+1. [Exercises: Understanding Folds](ch10/UnderstandingFolds.hs)
+2. [Exercises: Database Processing](ch10/DatabaseProcessing.hs)
+3. [Exercises: Scan](ch10/ScanExercises.hs)
+4. [Chapter 10 Exercises: Warm Up](ch10/WarmUp.hs)
+5. [Chapter 10 Exercises: Rewriting Functions](ch10/RewritingFunctions.hs)
