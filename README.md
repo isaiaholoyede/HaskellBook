@@ -111,3 +111,23 @@ This repo documents my solution to Haskell Book Exercises.
 3. [Exercises: Scan](ch10/ScanExercises.hs)
 4. [Chapter 10 Exercises: Warm Up](ch10/WarmUp.hs)
 5. [Chapter 10 Exercises: Rewriting Functions](ch10/RewritingFunctions.hs)
+
+## Chapter 11: Algebraic Datatypes
+
+1. [Exercises: Dog Types](ch11/DogTypes.md)
+2. [Exercises: Vehicles](ch11/Vehicles.hs)
+3. [Exercises: Cardinality](ch11/Cardinality.md)
+4. [Exercises: For Example](ch11/ForExample.md)
+5. [Exercises: Logic Goats](ch11/LogicGoats.hs)
+6. [Exercises: Pity the Bool](ch11/PityTheBool.hs)
+7. [Record Syntax](ch11/RecordSyntax.hs)
+8. [Exercises: How Does Your Garden Grow?](ch11/GardenGrow.hs)
+9. [Exercises: Programmers](ch11/Programmers.hs)
+10. [Exponentiation in what order?](ch11/ExponentiationOrder.hs)
+11. [Exercises: The Quad](ch11/TheQuad.hs)
+12. [Exercises: BinaryTree](ch11/BinaryTree.hs)
+13. [Chapter 11 Exercises](ch11/ch11Exercises.md)
+14. [Chapter 11 Exercises: Ciphers](ch11/Cipher.hs)
+15. [Chapter 11 Exercises: As Patterns and Language Exercise](ch11/AsPatterns.hs)
+16. [Chapter 11 Exercises: Phone Exercise](ch11/DaPhone.hs)
+17. [Chapter 11 Exercises: Hutton's Razor](ch11/HuttonsRazor.hs)
