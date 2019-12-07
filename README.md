@@ -1,6 +1,26 @@
 # Haskell Book Solution
 
-This repo documents my solution to Haskell Book Exercises.
+This documents my solution to Haskell Book Exercises.
+
+## Notes
+
+1. All You Need is Lambda
+2. Hello, Haskell!
+3. Strings
+4. Basic datatypes
+5. Types
+6. Type classes
+7. More functional patterns
+8. Recursion
+9. Lists
+10. Folding lists
+11. Algebraic datatypes
+12. [Signaling adversity](notes/ch12.md)
+13. Building projects
+14. Testing
+15. Monoid, Semigroup
+16. Functor
+17. Applicative
 
 ## Chapter 1: All You Need is Lambda
 
@@ -131,3 +151,15 @@ This repo documents my solution to Haskell Book Exercises.
 15. [Chapter 11 Exercises: As Patterns and Language Exercise](ch11/AsPatterns.hs)
 16. [Chapter 11 Exercises: Phone Exercise](ch11/DaPhone.hs)
 17. [Chapter 11 Exercises: Hutton's Razor](ch11/HuttonsRazor.hs)
+
+## Chapter 12: Signaling Adversity
+
+1. [Chapter 12 Exercises: Determine The Kinds](ch12/DetermineTheKinds.md)
+2. [Chapter 12 Exercises: Determine The Kinds](ch12/DetermineTheKinds.md)
+3. [Chapter 12 Exercises: String Processing](ch12/StringProcessing.hs)
+4. [Chapter 12 Exercises: Validate The Word](ch12/ValidateTheWord.hs)
+5. [Chapter 12 Exercises: Its Only Natural](ch12/ItsOnlyNatural.hs) 
+6. [Chapter 12 Exercises: Small Library for Maybe](ch12/MaybeLibrary.hs) 
+7. [Chapter 12 Exercises: Small Library for Either](ch12/EitherLibrary.hs)
+8. [Chapter 12 Exercises: Write your own iterate and unfoldr](ch12/IterateUnfold.hs)
+9. [Chapter 12 Exercises: Finally something other than a list!](ch12/BinaryTree.hs)
