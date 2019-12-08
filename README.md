@@ -4,17 +4,17 @@ This documents my solution to Haskell Book Exercises.
 
 ## Notes
 
-1. All You Need is Lambda
-2. Hello, Haskell!
-3. Strings
-4. Basic datatypes
-5. Types
-6. Type classes
-7. More functional patterns
-8. Recursion
-9. Lists
-10. Folding lists
-11. Algebraic datatypes
+1. [All You Need is Lambda](notes/ch01.md)
+2. [Hello, Haskell!](notes/ch02.md)
+3. [Strings](notes/ch03.md)
+4. [Basic datatypes](notes/ch04.md)
+5. [Types](notes/ch05.md)
+6. [Type classes](notes/ch06.md)
+7. [More functional patterns](notes/ch07.md)
+8. [Recursion](notes/ch08.md)
+9. [Lists](notes/ch09.md)
+10. [Folding lists](notes/ch10.md)
+11. [Algebraic datatypes](notes/ch11.md)
 12. [Signaling adversity](notes/ch12.md)
 13. Building projects
 14. Testing
