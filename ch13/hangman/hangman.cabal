@@ -1,0 +1,22 @@
+name:                hangman
+version:             0.1.0.0
+synopsis:            Playing Hangman
+-- description:
+homepage:            https://github.com/isaiaho/hangman#readme
+license:             BSD3
+license-file:        LICENSE
+author:              isaiah oloyede
+maintainer:          isaiah.oloyede@peakinfinity.com
+copyright:           2018 Isaiah Oloyede
+category:            Game
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable hangman
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , random
+                     , split

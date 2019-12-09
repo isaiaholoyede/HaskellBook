@@ -158,8 +158,16 @@ This documents my solution to Haskell Book Exercises.
 2. [Chapter 12 Exercises: Determine The Kinds](ch12/DetermineTheKinds.md)
 3. [Chapter 12 Exercises: String Processing](ch12/StringProcessing.hs)
 4. [Chapter 12 Exercises: Validate The Word](ch12/ValidateTheWord.hs)
-5. [Chapter 12 Exercises: Its Only Natural](ch12/ItsOnlyNatural.hs) 
-6. [Chapter 12 Exercises: Small Library for Maybe](ch12/MaybeLibrary.hs) 
+5. [Chapter 12 Exercises: Its Only Natural](ch12/ItsOnlyNatural.hs)
+6. [Chapter 12 Exercises: Small Library for Maybe](ch12/MaybeLibrary.hs)
 7. [Chapter 12 Exercises: Small Library for Either](ch12/EitherLibrary.hs)
 8. [Chapter 12 Exercises: Write your own iterate and unfoldr](ch12/IterateUnfold.hs)
 9. [Chapter 12 Exercises: Finally something other than a list!](ch12/BinaryTree.hs)
+
+## Chapter 13: Building Projects
+
+1. [Intermission: Check your understanding](ch13/CheckUnderstanding.md)
+2. [Chapter 13 Exercises: Hangman](ch13/hangman)
+3. [Chapter 13 Exercises: Cipher](ch13/Cipher.hs)
+4. [Chapter 13 Exercises: Palindrome](ch13/Palindrome.hs)
+5. [Chapter 13 Exercises: Exercise 4 - ValidatePerson)](ch13/ValidatePerson.hs)
