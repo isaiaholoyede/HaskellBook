@@ -170,4 +170,4 @@ This documents my solution to Haskell Book Exercises.
 2. [Chapter 13 Exercises: Hangman](ch13/hangman)
 3. [Chapter 13 Exercises: Cipher](ch13/Cipher.hs)
 4. [Chapter 13 Exercises: Palindrome](ch13/Palindrome.hs)
-5. [Chapter 13 Exercises: Exercise 4 - ValidatePerson)](ch13/ValidatePerson.hs)
+5. [Chapter 13 Exercises: Exercise 4 - ValidatePerson](ch13/ValidatePerson.hs)
