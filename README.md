@@ -16,8 +16,8 @@ This documents my solution to Haskell Book Exercises.
 10. [Folding lists](notes/ch10.md)
 11. [Algebraic datatypes](notes/ch11.md)
 12. [Signaling adversity](notes/ch12.md)
-13. Building projects
-14. Testing
+13. [Building projects](notes/ch13.md)
+14. [Testing](notes/ch14.md)
 15. Monoid, Semigroup
 16. Functor
 17. Applicative
@@ -171,3 +171,9 @@ This documents my solution to Haskell Book Exercises.
 3. [Chapter 13 Exercises: Cipher](ch13/Cipher.hs)
 4. [Chapter 13 Exercises: Palindrome](ch13/Palindrome.hs)
 5. [Chapter 13 Exercises: Exercise 4 - ValidatePerson](ch13/ValidatePerson.hs)
+
+## Chapter 14: Testing
+
+1. [Intermission: Short Exercise](ch14/multiply)
+2. [Morse Code](ch14/morse)
+3. [Chapter 14 Exercises](ch14/exercises)
