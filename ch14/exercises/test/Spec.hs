@@ -67,11 +67,11 @@ prop_MultiplyCommutative :: Integer -> Integer -> Bool
 prop_MultiplyCommutative = multiplyCommutative
 
 -- #5 Quot Rem and Div Mod Properties
-prop_QuotRem :: Integer -> (NonZero Integer) -> Bool
-prop_QuotRem x (NonZero y) = (quot x y) * y + (rem x y) == x
+prop_QuotRem :: Integer -> NonZero Integer -> Bool
+prop_QuotRem x (NonZero y) = quot x y * y + rem x y == x
 
-prop_DivMod :: Integer -> (NonZero Integer) -> Bool
-prop_DivMod x (NonZero y) = (div x y) * y + (mod x y) == x
+prop_DivMod :: Integer -> NonZero Integer -> Bool
+prop_DivMod x (NonZero y) = div x y * y + mod x y == x
 
 -- #6 Minus is neither Associative nor Commutative
 minusAssociative :: (Eq a, Num a) => a -> a -> a -> Bool
@@ -116,7 +116,7 @@ prop_NotPlusPlus xs ys =
 -- This works
 prop_PlusPlus :: String -> String -> Bool
 prop_PlusPlus xs ys =
-  foldr (:) xs ys == flip (++) xs ys
+  foldr (:) xs ys == (++) ys xs
 
 -- #9b. Concat Functions
 prop_Concat :: [[Int]] -> Bool
@@ -125,15 +125,15 @@ prop_Concat xs =
 
 -- #10. Length Take
 -- This property does not always hold.
-prop_LengthTake :: (NonNegative Int)
-                -> (NonEmptyList Int)
+prop_LengthTake :: NonNegative Int
+                -> NonEmptyList Int
                 -> Bool
 prop_LengthTake (NonNegative n) (NonEmpty xs) =
   length (take n xs) == n
 
 -- #11. Read Show
 prop_ReadShow :: Int -> Bool
-prop_ReadShow x = (read (show x)) == x
+prop_ReadShow x = read (show x) == x
 
 
 -- Failure
