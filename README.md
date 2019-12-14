@@ -21,6 +21,20 @@ This documents my solution to Haskell Book Exercises.
 15. Monoid, Semigroup
 16. Functor
 17. Applicative
+18. Monad
+19. Applying structure
+20. Foldable
+21. Traversable
+22. Reader
+23. State
+24. Parser combinators
+25. Composing types
+26. Monad transformers
+27. Nonstrictness
+28. Basic libraries
+29. IO
+30. When things go wrong
+31. Final project
 
 ## Chapter 1: All You Need is Lambda
 
