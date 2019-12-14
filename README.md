@@ -176,4 +176,10 @@ This documents my solution to Haskell Book Exercises.
 
 1. [Intermission: Short Exercise](ch14/multiply)
 2. [Morse Code](ch14/morse)
-3. [Chapter 14 Exercises](ch14/exercises)
+3. [Chapter 14 Exercises: WordNumber](ch14/wordnumber)
+4. [Chapter 14 Exercises: Using QuickCheck](ch14/usingQC)
+5. [Chapter 14 Exercises: Failure](ch14/failure)
+6. [Chapter 14 Exercises: Idempotence](ch14/idempotence)
+7. [Chapter 14 Exercises: Make a Gen random generator for the datatype](ch14/makegen)
+8. [TODO: Chapter 14 Exercises: Hangman testing](ch14/hangman)
+9. [Chapter 14 Exercises: Validating ciphers](ch14/ciphers)

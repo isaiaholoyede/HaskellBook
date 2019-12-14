@@ -1,34 +1,34 @@
 module Spec where
 
+import Cipher
+import Control.Applicative
 import Test.QuickCheck
 
--- allowedChars :: String
--- allowedChars = M.keys letterToMorse
+charGen :: Gen Char
+charGen = elements ['a'..'z']
 
--- allowedMorse :: [Morse]
--- allowedMorse = M.elems letterToMorse
+wordGen :: Gen String
+wordGen = listOf charGen
 
--- charGen :: Gen Char
--- charGen = elements allowedChars
+sentenceGen :: Gen String
+sentenceGen = unwords <$> listOf wordGen
 
--- morseGen :: Gen Morse
--- morseGen = elements allowedMorse
+intGen :: Gen Int
+intGen = arbitrary
 
--- prop_fillInCharacter :: Property
--- prop_fillInCharacter =
---     forAll charGen
---     (\c -> (charToMorse c
---     >>= morseToChar) == Just c)
+nonEmptyWordGen :: Gen String
+nonEmptyWordGen = listOf1 charGen
 
--- prop_handleGuess :: Property
--- prop_handleGuess =
---     forAll charGen
---     (\c -> (charToMorse c
---     >>= morseToChar) == Just c)
+prop_caesar :: Property
+prop_caesar = forAll sentenceGen (\s ->
+    forAll intGen (\n -> (unCaesar n . caesar n $ s) == s))
+prop_vigenere :: Property
+prop_vigenere = forAll sentenceGen (\s ->
+    forAll nonEmptyWordGen (\w -> (unVigenere w . vigenere w $ s) == s))
 
 main :: IO ()
 main = do
-    putStrLn "\nTest fillInCharacter function"
-    -- quickCheck prop_fillInCharacter
-    putStrLn "\nTest handleGuess function"
-    -- quickCheck prop_handleGuess
+    putStrLn "\nTest caesar function"
+    quickCheck prop_caesar
+    putStrLn "\nTest vigenere function"
+    quickCheck prop_vigenere
