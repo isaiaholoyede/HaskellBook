@@ -2,29 +2,27 @@ module Spec where
 
 import Test.QuickCheck
 
--- allowedChars :: String
--- allowedChars = M.keys letterToMorse
-
--- allowedMorse :: [Morse]
--- allowedMorse = M.elems letterToMorse
-
 -- charGen :: Gen Char
--- charGen = elements allowedChars
+-- charGen = elements ['a'..'z']
 
--- morseGen :: Gen Morse
--- morseGen = elements allowedMorse
+-- wordGen :: Gen String
+-- wordGen = listOf charGen
 
--- prop_fillInCharacter :: Property
--- prop_fillInCharacter =
---     forAll charGen
---     (\c -> (charToMorse c
---     >>= morseToChar) == Just c)
+-- sentenceGen :: Gen String
+-- sentenceGen = unwords <$> listOf wordGen
 
--- prop_handleGuess :: Property
--- prop_handleGuess =
---     forAll charGen
---     (\c -> (charToMorse c
---     >>= morseToChar) == Just c)
+-- intGen :: Gen Int
+-- intGen = arbitrary
+
+-- nonEmptyWordGen :: Gen String
+-- nonEmptyWordGen = listOf1 charGen
+
+-- prop_caesar :: Property
+-- prop_caesar = forAll sentenceGen (\s ->
+--     forAll intGen (\n -> (unCaesar n . caesar n $ s) == s))
+-- prop_vigenere :: Property
+-- prop_vigenere = forAll sentenceGen (\s ->
+--     forAll nonEmptyWordGen (\w -> (unVigenere w . vigenere w $ s) == s))
 
 main :: IO ()
 main = do
@@ -32,3 +30,4 @@ main = do
     -- quickCheck prop_fillInCharacter
     putStrLn "\nTest handleGuess function"
     -- quickCheck prop_handleGuess
+

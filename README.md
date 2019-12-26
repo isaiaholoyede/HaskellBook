@@ -18,7 +18,7 @@ This documents my solution to Haskell Book Exercises.
 12. [Signaling adversity](notes/ch12.md)
 13. [Building projects](notes/ch13.md)
 14. [Testing](notes/ch14.md)
-15. Monoid, Semigroup
+15. [Monoid, Semigroup](notes/ch15.md)
 16. Functor
 17. Applicative
 18. Monad
@@ -197,3 +197,13 @@ This documents my solution to Haskell Book Exercises.
 7. [Chapter 14 Exercises: Make a Gen random generator for the datatype](ch14/makegen)
 8. [TODO: Chapter 14 Exercises: Hangman testing](ch14/hangman)
 9. [Chapter 14 Exercises: Validating ciphers](ch14/ciphers)
+
+## Chapter 15: Monoid, Semigroup
+
+1. [Exercise: Optional Monoid](ch15/Optional.hs)
+2. [Madness](ch15/Madness.hs)
+3. [Exercise: Maybe Another Monoid](ch15/MaybeAnotherMonoid.hs)
+4. [Chapter 15 Exercises: Semigroup](ch15/SemigroupExercises.hs)
+5. [Chapter 15 Exercises: Validation](ch15/Validation.hs)
+6. [Chapter 15 Exercises: Monoid](ch15/MonoidExercises.hs)
+7. [Chapter 15 Exercises: Mem](ch15/Mem.hs)
