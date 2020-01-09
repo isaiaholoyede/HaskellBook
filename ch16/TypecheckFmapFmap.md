@@ -42,7 +42,7 @@ We procced by substituting the above for all occurrences of `a`, `m`, and `n` in
 Therefore, the type of `(fmap . fmap)` is:
 
 ```haskell
-(fmap . fmap) ::  (Functor f, Functor g) => (x -> y) -> (f (g x) -> f (g y))
+(fmap . fmap) ::  (Functor f, Functor g) => (x -> y) -> f (g x) -> f (g y)
 ```
 
 ## Reference
