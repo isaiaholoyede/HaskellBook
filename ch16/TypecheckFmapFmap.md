@@ -34,7 +34,7 @@ For the second operand `(a -> (m -> n))`, we can infer the following:
 We procced by substituting the above for all occurrences of `a`, `m`, and `n` in the composition function.
 
 ```haskell
-(.) :: (Functor f, Functor g => ((g x -> g y) -> (f g x -> f g y)) -- First operand
+(.) :: (Functor f, Functor g) => ((g x -> g y) -> (f g x -> f g y)) -- First operand
                             -> ((x -> y) -> (g x -> g y)) -- Second operand
                             -> (x -> y) -> (f (g x) -> f (g y)) -- Result
 ```
@@ -42,7 +42,7 @@ We procced by substituting the above for all occurrences of `a`, `m`, and `n` in
 Therefore, the type of `(fmap . fmap)` is:
 
 ```haskell
-(fmap . fmap) ::  (Functor f, Functor g => (x -> y) -> (f (g x) -> f (g y))
+(fmap . fmap) ::  (Functor f, Functor g) => (x -> y) -> (f (g x) -> f (g y))
 ```
 
 ## Reference
