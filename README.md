@@ -19,7 +19,7 @@ This documents my solution to Haskell Book Exercises.
 13. [Building projects](notes/ch13.md)
 14. [Testing](notes/ch14.md)
 15. [Monoid, Semigroup](notes/ch15.md)
-16. Functor
+16. [Functor](notes/ch16.md)
 17. Applicative
 18. Monad
 19. Applying structure
@@ -207,3 +207,14 @@ This documents my solution to Haskell Book Exercises.
 5. [Chapter 15 Exercises: Validation](ch15/Validation.hs)
 6. [Chapter 15 Exercises: Monoid](ch15/MonoidExercises.hs)
 7. [Chapter 15 Exercises: Mem](ch15/Mem.hs)
+
+## Chapter 16: Functor
+
+1. [Exercises: Be Kind](ch16/BeKind.md)
+2. [Typecheck `(fmap.fmap)`](ch16/TypecheckFmapFmap.md)
+3. [ReplaceExperiment](ch16/ReplaceExperiment.hs)
+4. [Exercises: Heavy Lifting](ch16/HeavyLifting.hs)
+5. [Exercises: Instances of Func](ch16/InstancesOfFunc.hs)
+6. [Exercises: Possibly](ch16/Possibly.hs)
+7. [Short Exercise](ch16/Sum.hs)
+8. [Chapter 16 Exercises](ch16/Chapter16Exercises.hs)
