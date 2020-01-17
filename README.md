@@ -20,7 +20,7 @@ This documents my solution to Haskell Book Exercises.
 14. [Testing](notes/ch14.md)
 15. [Monoid, Semigroup](notes/ch15.md)
 16. [Functor](notes/ch16.md)
-17. Applicative
+17. [Applicative](notes/ch17.md)
 18. Monad
 19. Applying structure
 20. Foldable
@@ -218,3 +218,13 @@ This documents my solution to Haskell Book Exercises.
 6. [Exercises: Possibly](ch16/Possibly.hs)
 7. [Short Exercise](ch16/Sum.hs)
 8. [Chapter 16 Exercises](ch16/Chapter16Exercises.hs)
+
+## Chapter 16: Applicative
+
+1. [Exercises: Lookups](ch17/Lookups.hs)
+2. [Exercises: Identity Instance](ch17/IdentityImstamce.hs)
+3. [Exercises: Constant Instance](ch17/ConstantImstamce.hs)
+
+## Resources
+
+1. [Understanding Basic Haskell Error Messages](http://ics.p.lodz.pl/~stolarek/_media/pl:research:stolarek_understanding_basic_haskell_error_messages.pdf)
