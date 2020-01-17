@@ -219,7 +219,7 @@ This documents my solution to Haskell Book Exercises.
 7. [Short Exercise](ch16/Sum.hs)
 8. [Chapter 16 Exercises](ch16/Chapter16Exercises.hs)
 
-## Chapter 16: Applicative
+## Chapter 17: Applicative
 
 1. [Exercises: Lookups](ch17/Lookups.hs)
 2. [Exercises: Identity Instance](ch17/IdentityImstamce.hs)
