@@ -222,8 +222,8 @@ This documents my solution to Haskell Book Exercises.
 ## Chapter 17: Applicative
 
 1. [Exercises: Lookups](ch17/Lookups.hs)
-2. [Exercises: Identity Instance](ch17/IdentityInstamce.hs)
-3. [Exercises: Constant Instance](ch17/ConstantInstamce.hs)
+2. [Exercises: Identity Instance](ch17/IdentityInstance.hs)
+3. [Exercises: Constant Instance](ch17/ConstantInstance.hs)
 
 ## Resources
 
