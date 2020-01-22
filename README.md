@@ -224,6 +224,7 @@ This documents my solution to Haskell Book Exercises.
 1. [Exercises: Lookups](ch17/Lookups.hs)
 2. [Exercises: Identity Instance](ch17/IdentityInstance.hs)
 3. [Exercises: Constant Instance](ch17/ConstantInstance.hs)
+4. [Exercises: Fixer Upper](ch17/FixerUpper.hs)
 
 ## Resources
 
