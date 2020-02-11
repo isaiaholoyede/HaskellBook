@@ -225,6 +225,8 @@ This documents my solution to Haskell Book Exercises.
 2. [Exercises: Identity Instance](ch17/IdentityInstance.hs)
 3. [Exercises: Constant Instance](ch17/ConstantInstance.hs)
 4. [Exercises: Fixer Upper](ch17/FixerUpper.hs)
+5. [Exercises: List Applicative](ch17/ListApplicative.hs)
+6. [Exercises: ZipList Applicative](ch17/ZipListApplicative.hs)
 
 ## Resources
 
